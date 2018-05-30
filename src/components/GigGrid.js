@@ -21,9 +21,9 @@ class GigGrid extends Component {
       <div className="test-grid">
         <h3 className="title">Here is a button</h3>
         <Button variant="raised" color="primary" onClick={this.handleClick}>
-          Default
+          Toggle
         </Button>
-        <Button variant="raised" color="primary" onClick={this.handleCheese}>
+        <Button variant="raised" color="secondary" onClick={this.handleCheese}>
           Cheese
         </Button>
         <h3>{String(testSuccess)}</h3>
