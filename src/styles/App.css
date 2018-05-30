@@ -43,6 +43,18 @@ a {
   text-transform: uppercase;
 }
 
+.active {
+  border: 1px solid black;
+  padding: 4px 4px 1px 4px;
+  white-space: nowrap;
+}
+
+.active:hover {
+  outline: none;
+  color: #fff;
+  background-color: #000;
+}
+
 .MuiButtonBase-root-17 {
   margin-right: 10px !important;
 }
